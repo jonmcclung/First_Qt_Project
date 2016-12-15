@@ -15,6 +15,10 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void onButtonClick(int=0);
+    void resetButton();
+
 private:
     Ui::MainWindow *ui;
 };
